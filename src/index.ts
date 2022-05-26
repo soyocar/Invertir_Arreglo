@@ -17,7 +17,7 @@ btnEnv.addEventListener("click", () => {
   }
   function InvertiArray(Invertir: number[], resultado: number[]) {
     let indice1: number = 0;
-    for (indice = dimensionArreglo - 1; indice <= 0; indice--) {
+    for (indice = dimensionArreglo - 1; indice >= 0; indice--) {
       resultado[indice1] = Invertir[indice];
       indice1 += 1;
     }
